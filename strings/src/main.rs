@@ -60,6 +60,7 @@ fn main() {
             Some(c) => println!("Char at index 4: {}", c),
             None => println!("Not found"),
         }
+
         println!("before {}", my_string_b);
     }
 }
