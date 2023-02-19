@@ -1,7 +1,18 @@
 fn main() {
     let name = String::from("Helder");
-    match name.chars().nth(3) {
-        Some(c) => println!("{}", c),
-        _ => println!("Nothing"),
+
+    println!(
+        "Occupation is {}",
+        match get_occupation(&name) {
+            Some(o) => o,
+            None => "No occupation found!",
+        }
+    )
+}
+
+fn get_occupation(name: &str) -> Option<&str> {
+    match name {
+        "Helder" => Some("Software developer"),
+        _ => None,
     }
 }
