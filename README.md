@@ -1,6 +1,6 @@
 # Build app with cargo
 
-## Especify is not a lib with --bin
+## Specify is not a lib with --bin
 
 > cargo new hello-world-cargo --bin
 
