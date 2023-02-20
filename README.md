@@ -17,4 +17,4 @@
 > cargo run
 
 WIP:
-https://www.youtube.com/watch?v=JKmkKae-EhM&list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL&index=37
+https://www.youtube.com/watch?v=9MYXWSlMf40&list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL&index=40
