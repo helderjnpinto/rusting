@@ -11,7 +11,7 @@ use futures_util::sink::SinkExt; // Import SinkExt
 async fn main() {
     let url = "ws://localhost:12345"; // Change this to the WebSocket server URL
     let num_clients = 1000; // Change this to the number of clients
-    let num_messages = 100; // Change this to the number of messages
+    let num_messages = 10000; // Change this to the number of messages
 
     let start_time = Instant::now();
     let stats = Arc::new(Mutex::new(Vec::new()));
